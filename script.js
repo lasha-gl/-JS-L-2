@@ -28,35 +28,39 @@
 
 // #3
 
-// function printName(){
+
 //     let user = {
 //         firstname: 'giorgi',
 //         lastname: 'saakadze',
 //         age: 32,
 //         isloggedin: true
 //       }
-//     if(user.isloggedin == true){
-//         console.log(user.firstname + ' ' + user.lastname); 
+//       function printName(obj){
+//     if(obj.isloggedin){
+//         return obj.firstname+ ' ' + obj.lastname; 
 //     }
-    
+//     return false;
 // }
 
-// let result = printName();
+// let result = printName (user);
+// console.log(result);
 
 
 // #4
 
-// numbers = [10, 20, 30, 40, -40, -30, -20, -10];
 
-// function max(numbers){
-//     let zero = 0;
-//     for(let items of numbers){
-//         if(items > zero){
-//             zero = items;
-//         }    
-//     }    
-//     return zero;
-// }    
+// function getMaxvalue(numbers) {
+//     let maxvalue = 0;
+//     for(let i = 0; i< numbers.length; i++) {
+//         const x = numbers [i];
 
-// let result = max(numbers)
-// console.log(result);
+//      if (x > maxvalue) {
+//         maxvalue =x;
+//      }
+
+// } 
+// return maxvalue;
+// }
+
+// console.log(getMaxvalue([10, 20, 30, 40, -40, -30, -20, -10]));
+
